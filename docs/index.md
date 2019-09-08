@@ -4,7 +4,7 @@
 
 相关说明：
 
-- 项目官网：[book_swop](https://github.com/howie6879/book_swop)
+- 项目官网：[book_swop](https://howie6879.github.io/book_swop/)
 - 项目介绍：[为什么需要book_swop](https://mp.weixin.qq.com/s/CM3zXo-Sse5Ws-ReFz8faA)
 
 ## 缘起
