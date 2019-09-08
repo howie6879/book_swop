@@ -1,3 +1,5 @@
 gen_dir.py
 .idea/
 .vscode/
+*.pyc
+site/
