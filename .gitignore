@@ -1,3 +1,7 @@
 gen_dir.py
 .idea/
 .vscode/
+docs/
+*.pyc
+mkdocs.yml
+site/
