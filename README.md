@@ -2,6 +2,11 @@
 
 > 蒙尘的二手书，也可以再次利用起来——二手书互相转赠交流计划
 
+相关说明：
+
+- 项目官网：[book_swop](https://github.com/howie6879/book_swop)
+- 项目介绍：[为什么需要book_swop](https://mp.weixin.qq.com/s/CM3zXo-Sse5Ws-ReFz8faA)
+
 ## 缘起
 
 作为一名技术人员，持续学习在日常工作生活中是必不可少的；大家都或多或少买过不少你觉得急需阅读的书籍，如果这本书属于以下情况：
@@ -14,7 +19,7 @@
 
 那能不能考虑和其他同样有这个困扰的小伙伴进行书籍交换呢？用一本书可以看无数本书📚
 
-想想还有点小激动😺，[公众号说明](https://mp.weixin.qq.com/s/CM3zXo-Sse5Ws-ReFz8faA)
+想想还有点小激动😺
 
 ## 二手书籍交换计划
 
@@ -69,7 +74,7 @@
 
 ## 怎么加入👇
 
-加我个人微信号，备注**二手书**：
+首先参考[如何贡献](https://github.com/howie6879/book_swop/blob/master/CONTRIBUTING.md)添加你想要交换的书籍，然后加我个人微信号，备注**二手书**：
 
 <img src="https://raw.githubusercontent.com/howie6879/howie6879.github.io/img/pictures/20190904202659.png" width = "400" height = "400" alt="" align=center />
 
