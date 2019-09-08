@@ -1,0 +1,643 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="二手书籍转赠交换计划">
+      
+      
+        <link rel="canonical" href="https://docs.python-ruia.org/index.html">
+      
+      
+        <meta name="author" content="howie.hu">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>Book Swop</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.30686662.css">
+      
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#book_swop" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://docs.python-ruia.org/" title="Book Swop" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Book Swop
+            </span>
+            <span class="md-header-nav__topic">
+              
+                项目介绍
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/howie6879/book_swop/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    howie6879/book_swop
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://docs.python-ruia.org/" title="Book Swop" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Book Swop
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/howie6879/book_swop/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    howie6879/book_swop
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        项目介绍
+      </label>
+    
+    <a href="index.html" title="项目介绍" class="md-nav__link md-nav__link--active">
+      项目介绍
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    缘起
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    二手书籍交换计划
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    计划详情
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    怎么加入👇
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="互联网/README.html" title="互联网" class="md-nav__link">
+      互联网
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="人工智能/README.html" title="人工智能" class="md-nav__link">
+      人工智能
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="大数据/README.html" title="大数据" class="md-nav__link">
+      大数据
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="效率/README.html" title="效率" class="md-nav__link">
+      效率
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="数学/README.html" title="数学" class="md-nav__link">
+      数学
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="架构/README.html" title="架构" class="md-nav__link">
+      架构
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="科普/README.html" title="科普" class="md-nav__link">
+      科普
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="编程/README.html" title="编程" class="md-nav__link">
+      编程
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="网络/README.html" title="网络" class="md-nav__link">
+      网络
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="计算机科学/README.html" title="计算机科学" class="md-nav__link">
+      计算机科学
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="通信/README.html" title="通信" class="md-nav__link">
+      通信
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="项目管理/README.html" title="项目管理" class="md-nav__link">
+      项目管理
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    缘起
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    二手书籍交换计划
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    计划详情
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    怎么加入👇
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/howie6879/book_swop/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="book_swop">book_swop</h1>
+<blockquote>
+<p>蒙尘的二手书，也可以再次利用起来——二手书互相转赠交流计划</p>
+</blockquote>
+<h2 id="_1">缘起</h2>
+<p>作为一名技术人员，持续学习在日常工作生活中是必不可少的；大家都或多或少买过不少你觉得急需阅读的书籍，如果这本书属于以下情况：</p>
+<ul>
+<li>读完了不再翻阅</li>
+<li>偶尔翻阅，频率越来越少直到没有翻开过</li>
+<li>从未翻阅</li>
+</ul>
+<p>那么这本书可能在你手中并没有那么重要了，直接打折二手卖掉也不失为一个好办法，但是中间间接损失的差价或许会感觉有点可惜。</p>
+<p>那能不能考虑和其他同样有这个困扰的小伙伴进行书籍交换呢？用一本书可以看无数本书📚</p>
+<p>想想还有点小激动😺，<a href="https://mp.weixin.qq.com/s/CM3zXo-Sse5Ws-ReFz8faA">公众号说明</a></p>
+<h2 id="_2">二手书籍交换计划</h2>
+<p>团结就是力量，手头有自己不看的二手书的朋友们，有没有兴趣一个组建这个计划，将自己的二手书换成另一本自己喜欢的书呢？</p>
+<p>为此，我建立了一个二手书籍交换小组，非常欢迎有兴趣的朋友一起加入群聊，我们可以一起交流最近读过的好书，更重要的是可以看看能不能用自己看过的书和其他人进行书籍交换。</p>
+<p>说到这里，我知道你肯定衡量好了要不要加入这个群组，作为发起人，我想先说下几个条件来作为你要不要进组的条件：</p>
+<ul>
+<li>热爱读书，终身学习者（志同道合的人聊天比较有感觉）</li>
+<li>有二手书想要进行交换（一定要是正版书籍）</li>
+</ul>
+<p>说完了条件，我再说下进组的福利：</p>
+<ul>
+<li>一群志同道合的人，一起学习，可以一起组建学习团队（99%是程序员）</li>
+<li>分享不受版权限制的开源电子书</li>
+<li>不定时抽奖</li>
+<li>各位群友的信息资源分享（行业消息、福利内推？）</li>
+</ul>
+<h2 id="_3">计划详情</h2>
+<p>首先，我会将书籍进行分类（因为大部分是技术人员，所以分类方向偏向计算机）：</p>
+<ul>
+<li>互联网</li>
+<li>人工智能</li>
+<li>大数据</li>
+<li>效率</li>
+<li>数学</li>
+<li>架构</li>
+<li>科普</li>
+<li>编程</li>
+<li>网络</li>
+<li>计算机科学</li>
+<li>通信</li>
+<li>项目管理</li>
+</ul>
+<p>暂时分成上述12个类别，每个类别对应项目的一个文件夹，每个文件夹有个文件可进行书籍记录，格式如下：</p>
+<table>
+<thead>
+<tr>
+<th align="center">书籍</th>
+<th align="center">作者</th>
+<th>拥有者</th>
+<th>状态</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">GitHub入门与实战</td>
+<td align="center">大塚弘记</td>
+<td>Howie</td>
+<td>待交换</td>
+<td>书籍九成新</td>
+</tr>
+</tbody>
+</table>
+<p>有二手书交换需求的朋友可以填写自己的二手书相关信息😺，总结一下交换流程就是：</p>
+<ul>
+<li>在相关分类文件夹下面填写自己的书籍信息</li>
+<li>选择自己看中的二手书</li>
+<li>进入群组进行交换</li>
+</ul>
+<p>交换者可以直接交换（前提是自己已经确认好对方书籍的情况），为了保护各位交换者的利益，交换者也可以提出由某个人（可以是我）作为公证人，然后进行交易。</p>
+<p>看到这里，相信你已经在一定程度上赞同我的想法，那么请加入群组一起构建专属程序员的二手书交流生态吧。</p>
+<h2 id="_4">怎么加入👇</h2>
+<p>加我个人微信号，备注<strong>二手书</strong>：</p>
+<p><img src="https://raw.githubusercontent.com/howie6879/howie6879.github.io/img/pictures/20190904202659.png" width = "400" height = "400" alt="" align=center /></p>
+<p>如果我个人微信号失效，也欢迎关注我的公众号<strong>老胡的储物柜</strong>，然后发<strong>进群</strong>，同样备注<strong>二手书</strong>：</p>
+<p><img src="https://raw.githubusercontent.com/howie6879/howie6879.github.io/img/pictures/20190529083905.png" width = "400" height = "400" alt="" align=center /></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="互联网/README.html" title="互联网" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                互联网
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2018 - 2019 <a href="https://github.com/howie6879/book_swop">howie.hu</a>.
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>

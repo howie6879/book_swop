@@ -1,0 +1,41 @@
+site_name: Book Swop
+site_url: https://docs.python-ruia.org/
+site_description: 二手书籍转赠交换计划
+site_author: howie.hu
+
+repo_url: https://github.com/howie6879/book_swop
+repo_name: 'howie6879/book_swop'
+
+copyright: Copyright &copy; 2018 - 2019 <a href="https://github.com/howie6879/book_swop">howie.hu</a>.
+
+theme:
+  name: 'material'
+  # logo: './images/logo.png'
+  # favicon: './images/favicon.ico'
+
+use_directory_urls: false
+
+nav:
+  - 项目介绍: index.md
+  - 互联网: ./互联网/README.md
+  - 人工智能: ./人工智能/README.md
+  - 大数据: ./大数据/README.md
+  - 效率: ./效率/README.md
+  - 数学: ./数学/README.md
+  - 架构: ./架构/README.md
+  - 科普: ./科普/README.md
+  - 编程: ./编程/README.md
+  - 网络: ./网络/README.md
+  - 计算机科学: ./计算机科学/README.md
+  - 通信: ./通信/README.md
+  - 项目管理: ./项目管理/README.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: []
+  - admonition
+  - def_list
+  - codehilite
